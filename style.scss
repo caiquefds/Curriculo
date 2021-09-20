@@ -1,10 +1,47 @@
 $darkBackground: rgb(43, 43, 43);
 $lightBackground: rgb(228, 222, 222);
 
-body {
+* {
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	
+
+}
+
+.paper {
+	display: grid;
+	margin: auto;
+	padding: 15px;
 	width: 21cm;
-	background-color: $darkBackground;
+	background-color: white(243, 11, 11);
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	.line {
+		margin: auto;
+		width: 95%;
+		height: 2.5px;
+		background-color: orange;
+	}
+
+	.box h1 {
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.box h2 {
+		margin-left: 7%;
+		margin-bottom: 1%;
+	}
+
+	.box h4 {
+		margin-left: 4%;
+	}
+
+	.box p {
+		margin-left: 5%;
+	}
 }
