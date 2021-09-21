@@ -7,11 +7,6 @@ $lightBackground: rgb(228, 222, 222);
 	padding: 0px;
 }
 
-body {
-	
-
-}
-
 .paper {
 	display: grid;
 	margin: auto;
@@ -21,9 +16,10 @@ body {
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 	.line {
 		margin: auto;
-		width: 95%;
+		margin-bottom: 5px;
+		width: 90%;
 		height: 2.5px;
-		background-color: orange;
+		background-color: orangered;
 	}
 
 	.box h1 {
@@ -33,15 +29,63 @@ body {
 	}
 
 	.box h2 {
+		text-transform: uppercase;
 		margin-left: 7%;
-		margin-bottom: 1%;
+		margin-top: 1%;
+	}
+
+	.box h3 {
+		padding-left: 8%;
+		padding-top: 10px;
 	}
 
 	.box h4 {
-		margin-left: 4%;
+		margin-left: 5%;
 	}
 
 	.box p {
+		margin-top: 10px;
 		margin-left: 5%;
+	}
+	.company {
+		margin-top: 10px;
+		text-decoration: none;
+		color: orangered;
+	}
+
+	.habilities {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		width: 100%;
+		padding-left: 5%;
+		padding-right: 5%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.habilities div {
+		height: 50px;
+		width: 50px;
+		background-color: orangered;
+	}
+
+	.table {
+		padding: 5%;
+		padding-top: 2%;
+	}
+
+	.table th {
+		text-transform: uppercase;
+		background-color: orangered;
+		color: white;
+	}
+
+	.table td {
+		text-align: center;
+		text-transform: uppercase;
+		padding: 10px;
+		background-color: rgb(241, 241, 240);
+		color: rgb(71, 71, 71);
 	}
 }

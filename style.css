@@ -17,9 +17,10 @@
 
 .paper .line {
   margin: auto;
-  width: 95%;
+  margin-bottom: 5px;
+  width: 90%;
   height: 2.5px;
-  background-color: orange;
+  background-color: orangered;
 }
 
 .paper .box h1 {
@@ -29,15 +30,71 @@
 }
 
 .paper .box h2 {
+  text-transform: uppercase;
   margin-left: 7%;
-  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.paper .box h3 {
+  padding-left: 8%;
+  padding-top: 10px;
 }
 
 .paper .box h4 {
-  margin-left: 4%;
+  margin-left: 5%;
 }
 
 .paper .box p {
+  margin-top: 10px;
   margin-left: 5%;
+}
+
+.paper .company {
+  margin-top: 10px;
+  text-decoration: none;
+  color: orangered;
+}
+
+.paper .habilities {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.paper .habilities div {
+  height: 50px;
+  width: 50px;
+  background-color: orangered;
+}
+
+.paper .table {
+  padding: 5%;
+  padding-top: 2%;
+}
+
+.paper .table th {
+  text-transform: uppercase;
+  background-color: orangered;
+  color: white;
+}
+
+.paper .table td {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: #f1f1f0;
+  color: #474747;
 }
 /*# sourceMappingURL=style.css.map */
