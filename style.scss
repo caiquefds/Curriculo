@@ -52,16 +52,19 @@ $lightBackground: rgb(228, 222, 222);
 		text-decoration: none;
 		color: orangered;
 	}
-
+	.flag {
+		width: 15;
+		height: 8;
+	}
 	.habilities {
 		margin-top: 20px;
 		margin-bottom: 20px;
-		width: 100%;
-		padding-left: 5%;
-		padding-right: 5%;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
 		display: flex;
 		flex-direction: row;
-		justify-content: space-between;
+		justify-content: space-around;
 	}
 
 	.habilities div {
